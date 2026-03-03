@@ -3,7 +3,7 @@ cask "leggo" do
   name "leggo"
   desc "A command line background process orchestrator"
   homepage "https://github.com/andresrobam/leggo"
-  version "0.6.0"
+  version "0.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "leggo" do
   on_macos do
     on_intel do
       url "https://github.com/andresrobam/leggo/releases/download/v#{version}/leggo_Darwin_x86_64.tar.gz"
-      sha256 "840fc586624132f70fc3425cff93892280eb61f5c7113c5d771ad7852dd939ba"
+      sha256 "5a40fbd01740b0142b94c699f738ae252f9a6c70a823baabbcfa6f62081e7653"
     end
     on_arm do
       url "https://github.com/andresrobam/leggo/releases/download/v#{version}/leggo_Darwin_arm64.tar.gz"
-      sha256 "c46df3af326285fd7b8e1645818eee66b8893bc42915ed87ea60cf765697477b"
+      sha256 "532682055cb277e9ef516463d1dca07273eb24250e9900ed9173966bbafdb8a8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andresrobam/leggo/releases/download/v#{version}/leggo_Linux_x86_64.tar.gz"
-      sha256 "301e69f84834761a23747e0ba4e4b64937b583e9f80d5894efeb6f5429bb5e9b"
+      sha256 "ba20a39543febcebc66d4f89045558d9aa57f4fb13d07769bd258ac81f095626"
     end
     on_arm do
       url "https://github.com/andresrobam/leggo/releases/download/v#{version}/leggo_Linux_arm64.tar.gz"
-      sha256 "a5fd8c10e511c87ab5044f7bc3e68c84bd98a93e7da757aaa65b8f0eeaaed880"
+      sha256 "511d6c28d41472ff13caf66f891062500df26f7e10237471d492805299d19b22"
     end
   end
 
